@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#visualization {
+    width: 100%;
+    height: 300px;  /* Set appropriate height */
+    display: flex;
+    align-items: flex-end; /* Align bars to the bottom */
+    justify-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    overflow: hidden; /* Hide any overflow */
+}
+
+.bar {
+    width: 30px;
+    background-color: blue;
+    margin: 2px;
+    transition: height 0.5s;
+}
